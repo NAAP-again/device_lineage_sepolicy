@@ -7,3 +7,5 @@ allow system_server pocket_judge_sysfs:file rw_file_perms;
 hal_client_domain(system_server, hal_lineage_livedisplay)
 hal_client_domain(system_server, hal_lineage_touch)
 hal_client_domain(system_server, hal_lineage_powershare)
+
+add_service(system_server, app_lock_service);

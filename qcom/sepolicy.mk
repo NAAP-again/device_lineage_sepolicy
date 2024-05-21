@@ -36,5 +36,6 @@ BOARD_SEPOLICY_M4DEFS += \
     display_vendor_data_file=vendor_display_vendor_data_file \
     hal_perf_default=vendor_hal_perf_default \
     sysfs_battery_supply=vendor_sysfs_battery_supply \
+    sysfs_socinfo_sensitive=vendor_sysfs_soc_sensitive \
     sysfs_usb_supply=vendor_sysfs_usb_supply
 endif
